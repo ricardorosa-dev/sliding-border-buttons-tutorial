@@ -1,0 +1,119 @@
+.position-setter {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  /* border: 1px solid; */
+  position: relative;
+  /* display: inline-block; */
+  color: inherit;
+  text-decoration: none;
+  margin: auto;
+  font-size: 30px;
+  padding: 5px 20px;
+}
+
+.left-top {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color:black;
+  height: 2px;
+  width: 100%;
+  /* z-index: -1; */
+  transition: linear .6s;
+}
+
+a:hover > .left-top {
+  /* background-color: orangered; */
+  width: 0;
+}
+
+.right1 {
+  margin: 0;
+  position: absolute;
+  right: 12px;
+  top: 0;
+  background-color: black;
+  height: 100%;
+  width: 2px;
+  z-index: -1;
+  transition: linear .5s;
+}
+
+a:hover > .right1 {
+  /* width: 3px; */
+  /* background-color: orangered; */
+  height: 0;
+}
+
+.right2 {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  height: 100%;
+  width: 2px;
+  z-index: -1;
+  transition: linear .5s;
+}
+
+a:hover > .right2 {
+  /* width: 3px; */
+  /* background-color: orangered; */
+  height: 0;
+}
+
+.right-bottom {
+  margin: 0;
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  background-color:black;
+  height: 2px;
+  width: 100%;
+  z-index: -1;
+  transition: linear .6s;
+}
+
+a:hover > .right-bottom {
+  /* background-color: orangered; */
+  width: 0;
+}
+
+.left1 {
+  margin: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color:black;
+  height: 100%;
+  width: 2px;
+  z-index: -1;
+  transition: linear .5s;
+}
+
+a:hover > .left1 {
+  height: 0;
+}
+
+.left2 {
+  margin: 0;
+  position: absolute;
+  left: 12px;
+  bottom: 0px;
+  background-color:black;
+  height: 100%;
+  width: 2px;
+  z-index: -1;
+  transition: linear .5s;
+}
+
+a:hover > .left2 {
+  height: 0;
+}
